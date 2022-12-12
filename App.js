@@ -7,6 +7,8 @@ import * as dotenv from "dotenv"
 const app = express();
 app.use(express.json())
 
+const PORT = 3000;
+
 app.use(cors());
 
 try {
@@ -17,6 +19,6 @@ try {
 }
 
 app.use(Router);
-app.listen(process.env.PGPORT, () => {
+app.listen(PORT, () => {
 console.log('this seems like logic but it is magic on port:5000')
 })
