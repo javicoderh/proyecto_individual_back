@@ -5,3 +5,4 @@
 ### conectarte a una base de datos escribiendo las credenciales en un archivo .env 
 ### luego debes abrir dos ventanas de visual studio code, situar una en la carpeta del front y la otra en el back
 ### correr npm start en ambas y explorar la app
+## no logre hacer el deploy llegue hasta conectar postgres a la base de datos de heroku pero no logre conectar express a la base de datos de heroku
