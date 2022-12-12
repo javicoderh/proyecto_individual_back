@@ -1,5 +1,5 @@
-DB_NAME=d90rc8ro7pbkme
-DB_USER=engtsrpmbsjonu
-DB_PASSWORD=fae7fece9d5336285d43202107a160da6bab7894b0a3c151d62b5505df5dab06
-DB_HOST=ec2-18-214-35-70.compute-1.amazonaws.com
-DB_PORT=5433
+DB_NAME=postgres
+DB_USER=postgres
+DB_PASSWORD=zapigol8
+DB_HOST=localhost
+DB_PORT=5432
