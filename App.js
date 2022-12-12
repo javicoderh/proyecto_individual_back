@@ -2,6 +2,7 @@ import Router from "./routes/routes.js";
 import express from "express";
 import db from "./config/dataBase.js";
 import cors from "cors"
+import * as dotenv from "dotenv"
 
 const app = express();
 app.use(express.json())
