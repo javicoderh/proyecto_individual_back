@@ -16,6 +16,6 @@ try {
 }
 
 app.use(Router);
-app.listen(7518, () => {
+app.listen(process.env.PORT || 3000, () => {
 console.log('this seems like logic but it is magic on port:5000')
 })
